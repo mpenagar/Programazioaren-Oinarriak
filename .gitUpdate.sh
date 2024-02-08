@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
 if [[ `git status --porcelain` ]]; then
     git add .
     git commit -m "." 
