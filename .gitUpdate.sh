@@ -1,5 +1,7 @@
 #!/bin/bash
 
-git add .
-git commit -m "." 
-git push origin master
+if [[ `git status --porcelain` ]]; then
+    git add .
+    git commit -m "." 
+    git push origin master
+fi
