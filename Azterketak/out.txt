@@ -1,0 +1,6 @@
+2026-05-01_10:00:00 luisja login -
+2026-05-01_10:05:00 luisja read email
+2026-05-01_10:10:00 luisja logout -
+2026-05-01_10:06:00 mikel login -
+2026-05-01_10:15:00 mikel read data.txt
+2026-05-01_10:20:00 mikel write data.txt
